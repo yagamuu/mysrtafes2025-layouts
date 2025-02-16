@@ -1,0 +1,140 @@
+{
+  "_QBtn-DUVAxw4m.js": {
+    "file": "assets/QBtn-DUVAxw4m.js",
+    "name": "QBtn",
+    "imports": [
+      "_replicants-DLRj2qU1.js",
+      "_QIcon-Dz2boVJ1.js"
+    ]
+  },
+  "_QIcon-BTJ5YR5x.css": {
+    "file": "assets/QIcon-BTJ5YR5x.css",
+    "src": "_QIcon-BTJ5YR5x.css"
+  },
+  "_QIcon-Dz2boVJ1.js": {
+    "file": "assets/QIcon-Dz2boVJ1.js",
+    "name": "QIcon",
+    "imports": [
+      "_replicants-DLRj2qU1.js"
+    ],
+    "css": [
+      "assets/QIcon-BTJ5YR5x.css"
+    ],
+    "assets": [
+      "assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ-D-x-0Q06.woff2",
+      "assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNa-Dr0goTwe.woff",
+      "assets/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbFmUiAw-yBxCyPWP.woff",
+      "assets/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiAw-CNa4tw4G.woff",
+      "assets/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiAw-3fZ6d7DD.woff",
+      "assets/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiAw-CHKg1YId.woff",
+      "assets/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiAw-BepdiOnY.woff",
+      "assets/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmUiAw-4ZhHFPot.woff"
+    ]
+  },
+  "_option-sizes-BPExw4Px.js": {
+    "file": "assets/option-sizes-BPExw4Px.js",
+    "name": "option-sizes",
+    "imports": [
+      "_replicants-DLRj2qU1.js"
+    ]
+  },
+  "_private.use-form-BknCmkai.js": {
+    "file": "assets/private.use-form-BknCmkai.js",
+    "name": "private.use-form",
+    "imports": [
+      "_replicants-DLRj2qU1.js"
+    ]
+  },
+  "_replicants-DLRj2qU1.js": {
+    "file": "assets/replicants-DLRj2qU1.js",
+    "name": "replicants"
+  },
+  "node_modules/.pnpm/@quasar+extras@1.16.17/node_modules/@quasar/extras/material-icons/web-font/flUhRq6tzZclQEJ-Vdg-IuiaDsNa.woff": {
+    "file": "assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNa-Dr0goTwe.woff",
+    "src": "node_modules/.pnpm/@quasar+extras@1.16.17/node_modules/@quasar/extras/material-icons/web-font/flUhRq6tzZclQEJ-Vdg-IuiaDsNa.woff"
+  },
+  "node_modules/.pnpm/@quasar+extras@1.16.17/node_modules/@quasar/extras/material-icons/web-font/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2": {
+    "file": "assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ-D-x-0Q06.woff2",
+    "src": "node_modules/.pnpm/@quasar+extras@1.16.17/node_modules/@quasar/extras/material-icons/web-font/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2"
+  },
+  "node_modules/.pnpm/@quasar+extras@1.16.17/node_modules/@quasar/extras/roboto-font/web-font/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiAw.woff": {
+    "file": "assets/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiAw-BepdiOnY.woff",
+    "src": "node_modules/.pnpm/@quasar+extras@1.16.17/node_modules/@quasar/extras/roboto-font/web-font/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiAw.woff"
+  },
+  "node_modules/.pnpm/@quasar+extras@1.16.17/node_modules/@quasar/extras/roboto-font/web-font/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmUiAw.woff": {
+    "file": "assets/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmUiAw-4ZhHFPot.woff",
+    "src": "node_modules/.pnpm/@quasar+extras@1.16.17/node_modules/@quasar/extras/roboto-font/web-font/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmUiAw.woff"
+  },
+  "node_modules/.pnpm/@quasar+extras@1.16.17/node_modules/@quasar/extras/roboto-font/web-font/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiAw.woff": {
+    "file": "assets/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiAw-CNa4tw4G.woff",
+    "src": "node_modules/.pnpm/@quasar+extras@1.16.17/node_modules/@quasar/extras/roboto-font/web-font/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiAw.woff"
+  },
+  "node_modules/.pnpm/@quasar+extras@1.16.17/node_modules/@quasar/extras/roboto-font/web-font/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiAw.woff": {
+    "file": "assets/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiAw-CHKg1YId.woff",
+    "src": "node_modules/.pnpm/@quasar+extras@1.16.17/node_modules/@quasar/extras/roboto-font/web-font/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiAw.woff"
+  },
+  "node_modules/.pnpm/@quasar+extras@1.16.17/node_modules/@quasar/extras/roboto-font/web-font/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbFmUiAw.woff": {
+    "file": "assets/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbFmUiAw-yBxCyPWP.woff",
+    "src": "node_modules/.pnpm/@quasar+extras@1.16.17/node_modules/@quasar/extras/roboto-font/web-font/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbFmUiAw.woff"
+  },
+  "node_modules/.pnpm/@quasar+extras@1.16.17/node_modules/@quasar/extras/roboto-font/web-font/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiAw.woff": {
+    "file": "assets/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiAw-3fZ6d7DD.woff",
+    "src": "node_modules/.pnpm/@quasar+extras@1.16.17/node_modules/@quasar/extras/roboto-font/web-font/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiAw.woff"
+  },
+  "src/dashboard/displaySound/main.ts": {
+    "file": "assets/main-DO5L-Jb7.js",
+    "name": "main",
+    "src": "src/dashboard/displaySound/main.ts",
+    "isEntry": true,
+    "imports": [
+      "_QIcon-Dz2boVJ1.js",
+      "_replicants-DLRj2qU1.js",
+      "_private.use-form-BknCmkai.js",
+      "_option-sizes-BPExw4Px.js"
+    ]
+  },
+  "src/dashboard/example/main.ts": {
+    "file": "assets/main-thwA_Bpl.js",
+    "name": "main",
+    "src": "src/dashboard/example/main.ts",
+    "isEntry": true,
+    "imports": [
+      "_QIcon-Dz2boVJ1.js",
+      "_replicants-DLRj2qU1.js",
+      "_QBtn-DUVAxw4m.js"
+    ]
+  },
+  "src/dashboard/setupInformation/main.ts": {
+    "file": "assets/main-BnmEnobi.js",
+    "name": "main",
+    "src": "src/dashboard/setupInformation/main.ts",
+    "isEntry": true,
+    "imports": [
+      "_QIcon-Dz2boVJ1.js",
+      "_replicants-DLRj2qU1.js",
+      "_QBtn-DUVAxw4m.js",
+      "_private.use-form-BknCmkai.js"
+    ]
+  },
+  "src/dashboard/startSoon/main.ts": {
+    "file": "assets/main-BmnC0f5O.js",
+    "name": "main",
+    "src": "src/dashboard/startSoon/main.ts",
+    "isEntry": true,
+    "imports": [
+      "_QIcon-Dz2boVJ1.js",
+      "_replicants-DLRj2qU1.js",
+      "_private.use-form-BknCmkai.js",
+      "_option-sizes-BPExw4Px.js"
+    ]
+  },
+  "src/graphics/example/main.ts": {
+    "file": "assets/main-BKZBiFy0.js",
+    "name": "main",
+    "src": "src/graphics/example/main.ts",
+    "isEntry": true,
+    "imports": [
+      "_replicants-DLRj2qU1.js"
+    ]
+  }
+}

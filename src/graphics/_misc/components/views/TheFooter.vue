@@ -17,7 +17,7 @@ setInterval(() => {
 
 <template>
   <div class="footer">
-    <div class="left">本イベントは、RTA in Japanのチャンネル貸出システムを利用した外部のRTAイベントです。</div>
-    <div class="right"><div class="x_icon"></div>#不思議RTAフェス<span>{{ nowDate }}</span></div>
+    <div class="left" />
+    <div class="right"><span>{{ nowDate }}</span></div>
   </div>
 </template>

@@ -90,7 +90,7 @@
     ],
     "graphics": [
       {
-        "file": "example/main.html",
+        "file": "setup/main.html",
         "width": 1920,
         "height": 1080
       }

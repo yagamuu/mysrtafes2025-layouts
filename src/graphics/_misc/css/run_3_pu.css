@@ -1,0 +1,102 @@
+body {
+  background: url('../images/3p_16x9_pickup.png') no-repeat;
+}
+
+.information_box {
+  position: absolute;
+  top: 841px;
+  left: 16px;
+  width: 1888px;
+  height: 170px;
+}
+
+.movie {
+  z-index: 10;
+}
+
+.movie.-player1 {
+  top: 98px;
+  left: 343px;
+  z-index: 10;
+  width: 1195px;
+}
+
+.movie.-player2 {
+  position: absolute;
+  top: 233px;
+  left: 1548px;
+  width: 363px;
+}
+
+.movie.-player3 {
+  top: 531px;
+  left: 1548px;
+  width: 363px;
+}
+
+.movie.-player1 .movie_footer {
+  width: calc(100% - 9px);
+  height: 44px;
+  padding-right: 0;
+  padding-left: 9px;
+}
+
+.movie.-player2 .movie_footer,
+.movie.-player3 .movie_footer {
+  flex-direction: column;
+  width: 100%;
+  height: unset;
+  padding: 0 0 0 11px;
+}
+
+.movie.-player1 .player {
+  font-size: 32px;
+}
+
+.movie.-player2 .player,
+.movie.-player3 .player {
+  align-self: flex-start;
+  padding-bottom: 0;
+  font-size: 26px;
+}
+
+.movie_footer .player::after {
+  width: 38px;
+  height: 28px;
+  margin-top: 9px;
+}
+
+.movie_footer .player_time {
+  gap: 7px;
+  font-size: 42px;
+  line-height: 90%;
+}
+
+.movie_footer .player_time::before {
+  width: 22px;
+  height: 27px;
+}
+
+.movie.-player2 .player_time,
+.movie.-player3 .player_time {
+  align-self: flex-end;
+  margin-right: 8px;
+}
+
+.time {
+  position: absolute;
+  top: -7px;
+  left: -7px;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  left: 440px;
+  width: 937px;
+}
+
+.game_detail {
+  position: absolute;
+  left: 1433px;
+}

@@ -1,0 +1,82 @@
+body {
+  background: url('./../images/3p_16x9.png') no-repeat;
+}
+
+.movie {
+  z-index: 10;
+  width: 763px;
+}
+
+.movie.-player1 {
+  top: 43px;
+  left: 1129px;
+}
+
+.movie.-player2 {
+  top: 540px;
+  left: 357px;
+}
+
+.movie.-player3 {
+  top: 540px;
+  left: 1129px;
+}
+
+.movie_footer {
+  width: calc(100% - 9px);
+  height: 39px;
+  padding-right: 0;
+  padding-left: 9px;
+}
+
+.movie_footer .player {
+  font-size: 32px;
+}
+
+.movie_footer .player::after {
+  width: 38px;
+  height: 28px;
+  margin-top: 9px;
+}
+
+.movie_footer .player_time {
+  gap: 7px;
+  font-size: 42px;
+  line-height: 86%;
+}
+
+.movie_footer .player_time::before {
+  width: 22px;
+  height: 27px;
+}
+
+.information_box {
+  top: 76px;
+  left: 429px;
+  width: 620px;
+  height: 474px;
+}
+
+.time {
+  position: absolute;
+  top: 340px;
+  right: 71px;
+  gap: 79px;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 182px;
+  line-height: 1.2591;
+  word-break: normal;
+}
+
+.game_detail {
+  top: 236px;
+  left: 0;
+  width: 100%;
+  height: 61px;
+}

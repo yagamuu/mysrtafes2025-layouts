@@ -1,0 +1,39 @@
+body {
+  background: url('../images/1p_4x3.png') no-repeat;
+}
+
+.information_box {
+  position: absolute;
+  top: 856px;
+  left: 16px;
+  width: 1888px;
+  height: 170px;
+}
+
+.movie {
+  top: 9px;
+  left: 597px;
+  width: 1116px;
+}
+
+/* タイマーの配置 */
+.time {
+  position: absolute;
+  top: -9px;
+  left: -8px;
+  width: 343px;
+  height: 138px;
+}
+
+/* タイトルの配置 */
+.title {
+  position: absolute;
+  top: 0;
+  left: 440px;
+}
+
+/* ゲーム詳細の配置 */
+.game_detail {
+  top: 0;
+  left: 1430px;
+}

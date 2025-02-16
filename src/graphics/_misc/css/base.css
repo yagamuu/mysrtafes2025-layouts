@@ -1,0 +1,47 @@
+:root {
+  --color-primary: #200404;
+  --color-white: #fff;
+  --color-timer: var(--color-primary);
+  --color-timer-stop: #ffd426;
+  --color-footer: #2c2c2c;
+  --color-player-name: #002b10;
+
+  /* フォントファミリー */
+  --font-jp: 'M PLUS 1', sans-serif;
+  --font-en: inconsolata, monospace;
+  --duration-timer: 0.15s;
+}
+
+#container {
+  width: 1920px;
+  height: 1080px;
+  border: 16px solid var(--color-footer);
+  border-bottom-width: 50px;
+}
+
+/* フッター共通スタイル */
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1920px;
+  height: 50px;
+  padding: 0 20px;
+  font-family: var(--font-jp);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 35px;
+  color: var(--color-white);
+}
+
+.footer .right {
+  display: flex;
+  align-items: center;
+}
+
+.footer span {
+  margin-left: 20px;
+}

@@ -1,0 +1,80 @@
+body {
+  background: url('../images/3p_4x3_.png') no-repeat;
+}
+
+.movie {
+  z-index: 10;
+  width: 584px;
+}
+
+.movie.-player1 {
+  top: 21px;
+  left: 1213px;
+}
+
+.movie.-player2 {
+  top: 525px;
+  left: 517px;
+}
+
+.movie.-player3 {
+  top: 525px;
+  left: 1213px;
+}
+
+.movie_footer {
+  width: calc(100% - 9px);
+  height: 49px;
+  padding-right: 0;
+  padding-left: 9px;
+}
+
+.movie_footer .player {
+  padding-top: 6px;
+  font-size: 26px;
+}
+
+.movie_footer .player::after {
+  width: 38px;
+  height: 28px;
+  margin-top: 9px;
+}
+
+.movie_footer .player_time {
+  font-size: 46px;
+  line-height: 92%;
+}
+
+.movie_footer .player_time::before {
+  width: 22px;
+  height: 27px;
+}
+
+.information_box {
+  top: 64px;
+  left: 505px;
+  width: 620px;
+  height: 474px;
+}
+
+.time {
+  position: absolute;
+  top: 330px;
+  right: 68px;
+}
+
+.title {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 182px;
+  line-height: 1.2591;
+  word-break: normal;
+}
+
+.game_detail {
+  top: 230px;
+  left: 0;
+  width: 100%;
+  height: 61px;
+}

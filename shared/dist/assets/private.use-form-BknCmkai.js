@@ -1,1 +1,0 @@
-import{j as r,l as u}from"./replicants-DLRj2qU1.js";const o={dark:{type:Boolean,default:null}};function c(a,n){return r(()=>a.dark===null?n.dark.isActive:a.dark)}const d={name:String};function i(a={}){return(n,e,t)=>{n[e](u("input",{class:"hidden"+(t||""),...a.value}))}}function l(a){return r(()=>a.name||a.for)}export{o as a,c as b,i as c,l as d,d as u};

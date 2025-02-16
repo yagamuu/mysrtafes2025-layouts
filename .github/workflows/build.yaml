@@ -71,16 +71,6 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-pnpm-store-
 
-    # --debug-- 1
-    - name: Debug - List repo files
-      run: ls -la
-    # --debug-- 2
-    - name: Debug - Check pnpm-lock.yaml
-      run: cat pnpm-lock.yaml
-    # --debug-- 3
-    - name: Debug - Locate pnpm-lock.yaml
-      run: find . -name pnpm-lock.yaml
-
     # 依存パッケージをインストール
     - name: Install pnpm dependencies
       run: |

@@ -1,17 +1,17 @@
 {
-  "name": "nodecg-vue-ts-template",
-  "version": "2.0.0",
+  "name": "mysrtafes2025-layouts",
+  "version": "1.0.0",
   "description": "Template for NodeCG bundles that use Vue.js and TypeScript.",
-  "homepage": "https://github.com/zoton2/nodecg-vue-ts-template#readme",
+  "homepage": "https://mysrtafes.com/",
   "bugs": {
-    "url": "https://github.com/zoton2/nodecg-vue-ts-template/issues"
+    "url": "https://github.com/yagamuu/mysrtafes2025-layouts/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zoton2/nodecg-vue-ts-template.git"
+    "url": "git+https://github.com/yagamuu/mysrtafes2025-layouts.git"
   },
   "license": "MIT",
-  "author": "zoton2",
+  "author": "yagamuu",
   "type": "module",
   "scripts": {
     "autofix": "eslint --fix",
@@ -48,13 +48,23 @@
     "vue": "^3.5.13",
     "vue-tsc": "~2.1.10"
   },
-  "overrides": {
-    "vite-plugin-nodecg": {
-      "vite": "$vite"
-    }
+  "pnpm": {
+    "overrides": {
+      "vite-plugin-nodecg>vite": "$vite"
+    },
+    "onlyBuiltDependencies": [
+      "@vaadin/vaadin-usage-statistics",
+      "better-sqlite3",
+      "esbuild",
+      "iframe-resizer",
+      "vue-demi"
+    ]
   },
   "nodecg": {
-    "compatibleRange": "^2.3.0",
+    "compatibleRange": "^2.5.0",
+    "bundleDependencies": {
+      "nodecg-speedcontrol": "^2.5.0"
+    },
     "dashboardPanels": [
       {
         "name": "example",
@@ -95,5 +105,10 @@
   "dependencies": {
     "nodecg": "^2.5.3",
     "uuid": "^11.0.5"
+  },
+  "overrides": {
+    "vite-plugin-nodecg": {
+      "vite": "$vite"
+    }
   }
 }

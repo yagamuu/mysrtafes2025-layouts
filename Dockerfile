@@ -2,7 +2,7 @@ FROM node:22.14-slim
 
 WORKDIR /nodecg
 
-RUN apt-get update && apt-get install -y python3 build-essential git
+RUN apt-get update && apt-get install -y python3 python3-pip build-essential git
 
 WORKDIR /nodecg/bundles
 
@@ -12,7 +12,7 @@ RUN npm i --omit=dev
 
 WORKDIR /nodecg
 COPY . .
-RUN npm ci
+RUN npm i -g pnpm && pnpm install --prod --frozen-lockfile
 
 EXPOSE 9090
 

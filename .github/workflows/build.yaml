@@ -50,28 +50,36 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '22'
-
-    # NPMのキャッシュ用設定をセット
-    - name: Set NPM cache
-      uses: actions/cache@v4
+    
+    # pnpmをインストール
+    - uses: pnpm/action-setup@v4
+      name: Install pnpm
       with:
-        path: ~/.npm
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        version: 10
+    # pnpmのstoreディレクトリ取得
+    - name: Get pnpm store directory
+      id: pnpm-cache
+      shell: bash
+      run: |
+        echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+    # pnpmのキャッシュ系オプション設定
+    - uses: actions/cache@v4
+      name: Setup pnpm cache
+      with:
+        path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
         restore-keys: |
-          ${{ runner.os }}-node-
-    # NPMを最新バージョンにアップデート
-    - name: Update NPM installation
-      run: npm install -g npm@latest
+          ${{ runner.os }}-pnpm-store-
 
     # 依存パッケージをインストール
-    - name: Install NPM dependencies
-      run: npm ci
+    - name: Install pnpm dependencies
+      run: |
+        pnpm i --frozen-lockfile
 
     # ビルドを実施
     - name: Build
       run: |
-        npm run prebuild
-        npm run build
+        pnpm run build
     # ビルドしたファイルをコミットする
     # 変更されたファイルがない場合失敗する場合があるが続行
     - name: Commit built files

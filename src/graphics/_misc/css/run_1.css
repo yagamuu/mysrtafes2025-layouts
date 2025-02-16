@@ -1,0 +1,34 @@
+body {
+  background: url('../images/1p_16x3.png') no-repeat;
+}
+
+.information_box {
+  top: 856px;
+  left: 16px;
+  width: 1888px;
+  height: 170px;
+}
+
+.movie {
+  top: 11px;
+  left: 415px;
+  width: 1485px;
+}
+
+.time {
+  position: absolute;
+  top: -9px;
+  left: -8px;
+  width: 343px;
+  height: 138px;
+}
+
+.title {
+  top: 0;
+  left: 447px;
+}
+
+.game_detail {
+  top: 0;
+  left: 1430px;
+}

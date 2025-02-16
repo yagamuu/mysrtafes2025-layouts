@@ -1,0 +1,191 @@
+/* レイアウト固有の背景 */
+body {
+  background-image: url('./../images/3p 4×3 Bingo.png');
+}
+
+/* レイアウト固有のクラウド配置 */
+.cloud {
+  top: 13px;
+  right: 0;
+  height: 283px;
+  background: url('./../images/run_3/cloud.png');
+}
+
+/* レイアウト固有のロゴ配置 */
+.logo {
+  top: 57px;
+  left: 72px;
+  z-index: 3;
+  width: 231px;
+  height: 244px;
+}
+
+/* 情報ボックスの配置 */
+.information_box {
+  position: absolute;
+  top: -25px;
+  left: 31px;
+  z-index: 3;
+  width: 424.8px;
+  height: 622.9px;
+  background: url('./../images/run_3_bingo_4x3/run_3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* メインムービーの配置 */
+.movie {
+  position: absolute;
+  top: 21px;
+  left: 518px;
+  z-index: 10;
+  width: 584px;
+  height: 438px;
+  background-color: rebeccapurple;
+}
+
+/* ビンゴシートの配置 */
+.bingo-sheet {
+  position: absolute;
+  top: 106px;
+  left: 1102px;
+  z-index: 3;
+  width: 737px;
+  height: 354px;
+  background: url('./../images/run_3_bingo/bingo_back.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* 解説ボックスの配置 */
+.kaisetsu_box {
+  position: absolute;
+  top: 645.07px;
+  left: 51px;
+  width: 373.81px;
+  height: 372.93px;
+  background: url('./../images/run_3_bingo_4x3/kaisetsu.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* ムービーフッターのスタイル */
+.movie_footer {
+  position: absolute;
+  bottom: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  padding: 0 10px;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.movie_footer .player_time {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  padding-right: 10px;
+  font-size: 36px;
+  line-height: 36px;
+  color: var(--color-timer);
+}
+
+/* サブムービーの配置 */
+.movie2 {
+  position: absolute;
+  top: 525px;
+  left: 517px;
+  z-index: 10;
+  width: 584px;
+  height: 438px;
+  background-color: rebeccapurple;
+}
+
+.movie3 {
+  position: absolute;
+  top: 525px;
+  left: 1213px;
+  z-index: 10;
+  width: 584px;
+  height: 438px;
+  background-color: rebeccapurple;
+}
+
+/* タイマーの配置 */
+.time {
+  position: absolute;
+  top: 468px;
+  left: 58px;
+  width: 314px;
+  height: 158px;
+  padding-bottom: 10px;
+}
+
+.time .now {
+  height: 70px;
+  margin-bottom: 10px;
+  font-size: 70px;
+  line-height: 70px;
+}
+
+.time .will {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.time .will span {
+  margin-left: 10px;
+  font-size: 33px;
+  line-height: 33px;
+}
+
+/* タイトルの配置 */
+.title {
+  position: absolute;
+  top: 188px;
+  left: 35px;
+  width: 368px;
+  height: 130px;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+}
+
+/* 区切り線の配置 */
+.dashed_line {
+  position: absolute;
+  top: 343px;
+  left: 40px;
+  width: 368px;
+  height: 3px;
+  background-image: url('./../images/run_3_bingo_4x3/dashed_line.png');
+  background-size: contain;
+}
+
+/* ゲーム詳細の配置 */
+.game_detail {
+  position: absolute;
+  top: 368px;
+  left: 36px;
+  width: 368px;
+  height: 61px;
+  font-size: 26px;
+  line-height: 34px;
+  text-align: center;
+}
+
+/* ビンゴシート画像の配置 */
+.bingo-sheet_image {
+  position: fixed;
+  top: 21px;
+  left: 1243px;
+  z-index: 10;
+  width: 524px;
+  height: 474px;
+}

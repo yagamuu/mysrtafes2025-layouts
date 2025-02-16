@@ -1,0 +1,75 @@
+body {
+  background: url('./../images/3p_4x3_pickup.png') no-repeat;
+}
+
+.information_box {
+  top: 858px;
+  left: 16px;
+  width: 1890px;
+  height: 166px;
+}
+
+.movie.-player1 {
+  top: 20px;
+  left: 390px;
+  width: 1030px;
+}
+
+.movie.-player2 {
+  top: 20px;
+  left: 1428px;
+  width: 480px;
+}
+
+.movie.-player3 {
+  top: 433px;
+  left: 1428px;
+  width: 480px;
+}
+
+.movie_footer {
+  width: calc(100% - 9px);
+  height: 41px;
+  padding-right: 0;
+  padding-left: 9px;
+}
+
+.movie_footer .player {
+  gap: 5px;
+  padding-bottom: 0;
+  font-size: 22px;
+}
+
+.movie_footer .player::after {
+  width: 30px;
+  height: 22px;
+  margin-top: 5px;
+}
+
+.movie_footer .player_time {
+  gap: 4px;
+  font-size: 38px;
+}
+
+.movie_footer .player_time::before {
+  width: 20px;
+  height: 25px;
+}
+
+.time {
+  position: absolute;
+  top: -8px;
+  left: -14px;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  left: 440px;
+}
+
+.game_detail {
+  position: absolute;
+  top: 0;
+  left: 1430px;
+}

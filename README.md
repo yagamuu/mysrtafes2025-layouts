@@ -4,7 +4,7 @@ This is the [NodeCG](http://github.com/nodecg/nodecg) bundle used for the stream
 
 ## Usage
 ```
-npm install
+pnpm install
 docker compose up
 ```
 

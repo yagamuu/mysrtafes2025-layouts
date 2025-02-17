@@ -93,6 +93,16 @@
         "file": "setup/main.html",
         "width": 1920,
         "height": 1080
+      },
+      {
+        "file": "4x3-1/main.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "16x9-1/main.html",
+        "width": 1920,
+        "height": 1080
       }
     ]
   },

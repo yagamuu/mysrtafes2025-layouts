@@ -7,14 +7,11 @@ const { runTitle, runCategory, runSystem, runRelease } = useRunData();
 </script>
 
 <template>
-  <div class="game_box">
-    <div class="title">
-      {{ runTitle }}
-    </div>
-    <span class="dashed_line"></span>
-    <div class="game_detail">
-      <div class="category">{{ runCategory }}</div>
-      <div class="game_console">{{ runSystem }} - {{ runRelease }}</div>
-    </div>
+  <h1 class="title">
+    {{ runTitle }}
+  </h1>
+  <div class="game_detail">
+    <div class="category">{{ runCategory }}</div>
+    <div class="game_console">{{ runSystem }} - {{ runRelease }}</div>
   </div>
 </template>

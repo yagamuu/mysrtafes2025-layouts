@@ -8,6 +8,12 @@ const { isChallenge, challengeTime } = useCustomData();
 
 const { time, runState, timer } = useTimer();
 
+interface Props {
+  horizontal?: boolean;
+}
+
+const props = defineProps<Props>();
+
 const timerStateClass = computed(() => {
   /*
   if (runState.value === 'paused') {
@@ -18,7 +24,7 @@ const timerStateClass = computed(() => {
   }
   */
   if (runState.value === 'finished') {
-    return 'stop_yellow';
+    return '-is_stop';
   }
   return '';
 });
@@ -33,10 +39,8 @@ const timerText = computed(() => {
 </script>
 
 <template>
-  <div class="time">
-    <div :class="[timerStateClass, 'now']">
-      {{ timerText }}
-    </div>
-    <div class="will">予定タイム<span>{{ estimate }}</span></div>
+  <div :class="[timerStateClass, 'time', props.horizontal ? '-horizontal' : '-vertical']">
+    <div class="now">{{ timerText }}</div>
+    <div class="will"><span class="will_label">予定タイム</span><span class="will_time">{{ estimate }}</span></div>
   </div>
 </template>

@@ -20,7 +20,7 @@ const startSoonClass = computed(() => {
   <BaseOverlay disable-background>
     <div :class="[startSoonClass, 'description_part']">
       <div class="description_part_alert">
-        <img src="../_misc/images/icon-speaker.png" />まもなく開始します
+        <img src="../_misc/images/icon-speaker_setup.png" />まもなく開始します
       </div>
     </div>
     <SetupSchedule/>

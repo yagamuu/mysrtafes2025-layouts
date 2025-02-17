@@ -12,7 +12,7 @@ RUN npm i --omit=dev
 
 WORKDIR /nodecg
 COPY . .
-RUN npm i -g pnpm && pnpm install --prod --frozen-lockfile
+RUN npm i -g pnpm && pnpm install --prod --frozen-lockfile --shamefully-hoist
 
 EXPOSE 9090
 

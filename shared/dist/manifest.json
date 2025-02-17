@@ -110,6 +110,10 @@
     "file": "assets/setup-Ja4gJL1K.png",
     "src": "src/graphics/_misc/images/setup.png"
   },
+  "src/graphics/_misc/images/setup_back.jpg": {
+    "file": "assets/setup_back-BkqvnxaU.jpg",
+    "src": "src/graphics/_misc/images/setup_back.jpg"
+  },
   "src/graphics/example/main.ts": {
     "file": "assets/main-I7FKKhBh.js",
     "name": "main",
@@ -120,7 +124,7 @@
     ]
   },
   "src/graphics/setup/main.ts": {
-    "file": "assets/main-D0b3FIPZ.js",
+    "file": "assets/main-DyokJUgH.js",
     "name": "main",
     "src": "src/graphics/setup/main.ts",
     "isEntry": true,
@@ -129,9 +133,10 @@
       "_customData-B77K_SzP.js"
     ],
     "css": [
-      "assets/main-Ch_INJX6.css"
+      "assets/main-DXTuuZ6Q.css"
     ],
     "assets": [
+      "assets/setup_back-BkqvnxaU.jpg",
       "assets/setup-Ja4gJL1K.png"
     ]
   }

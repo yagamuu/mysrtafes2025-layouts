@@ -7,7 +7,7 @@ import * as util from '../../../composable/util/format';
 
 interface Props {
   index: number;
-  innerClass?: string;
+  layoutClass?: string;
 }
 
 const props = defineProps<Props>();
@@ -37,12 +37,12 @@ const finishTime = computed(() => {
   return '';
 });
 
-const isActive = computed(() => {
+const isSpeakerClass = computed(() => {
   if (!runDataActiveRun?.data || !runDataActiveRun?.data.teams[props.index]) {
-    return false;
+    return '';
   }
   return runDataActiveRun?.data.teams[props.index].players[0].id
-    === displaySound?.data?.playerId;
+    === displaySound?.data?.playerId ? '-is_speaker' : '';
 });
 
 const finishTimeClass = computed(() => {
@@ -56,23 +56,32 @@ const finishTimeClass = computed(() => {
   const finish = timer?.data?.teamFinishTimes[teamId];
 
   if (finish.state === 'completed') {
-    return 'stop_blown';
+    return '-is_stop';
+  }
+
+  if (finish.state === 'forfeit') {
+    return '-is_retire';
   }
 
   return '';
 });
 
+const playerClass = computed(() => {
+  return `-player${props.index + 1}`;
+});
+
+const layoutClass = computed(() => {
+  return props.layoutClass ? `-as_${props.layoutClass}` : '';
+});
+
 </script>
 
 <template>
-  <div>
-    <div class="player">
-      {{ name }}
-      <span class="speaker" v-if="isActive"/>
+  <section :class="[isSpeakerClass, finishTimeClass, playerClass, 'movie']">
+    <div :class="[layoutClass, 'movie_screen']" />
+    <div class="movie_footer">
+      <div class="player">{{ name }}</div>
+      <div class="player_time" v-if="finishTime">{{ finishTime }}</div>
     </div>
-    <div :class="['player_time', finishTimeClass]" v-if="finishTime">
-      <span class="flag"/>
-      {{ finishTime }}
-    </div>
-  </div>
+  </section>
 </template>

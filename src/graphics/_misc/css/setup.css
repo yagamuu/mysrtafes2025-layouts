@@ -7,9 +7,17 @@
   height: 1080px;
 }
 
-#container_back img {
+.container_back_movie {
   width: 100%;
   height: 100%;
+  overflow: hidden;
+  background: url('./../images/setup_back.jpg') no-repeat center / contain;
+}
+
+.container_back_movie_video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 #container {

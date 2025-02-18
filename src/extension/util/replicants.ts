@@ -10,7 +10,6 @@ function hasDefault<T>(name: string, namespace?: string) {
   return nodecg.Replicant<T>(name) as unknown as NodeCG.default.ServerReplicantWithSchemaDefault<T>;
 }
 // Wrapper for replicants that don't have a default (based on schema).
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function hasNoDefault<T>(name: string, namespace?: string) {
   if (namespace) {
     return nodecg.Replicant<T>(name, namespace) as unknown as NodeCG.default.ServerReplicant<T>;

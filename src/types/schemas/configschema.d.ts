@@ -7,5 +7,7 @@
  */
 
 export interface Configschema {
-	exampleProperty: string;
+	enableAutoMarker: boolean;
+	autoMarkerDescription: string;
+	twitchClientId?: string;
 }

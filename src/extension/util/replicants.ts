@@ -28,3 +28,5 @@ export const setupInformationArrayReplicant = hasDefault<Schemas.SetupInformatio
 export const startSoonReplicant = hasDefault<Schemas.StartSoon>('startSoon');
 
 export const runDataActiveRunReplicant = hasNoDefault<Schemas.Speedcontrol.RunData.RunDataActiveRun>('runDataActiveRun', 'nodecg-speedcontrol');
+export const runDataActiveRunSurroundingReplicant = hasNoDefault<Schemas.Speedcontrol.RunDataActiveRunSurrounding.RunDataActiveRunSurrounding>('runDataActiveRunSurrounding', 'nodecg-speedcontrol');
+export const twitchAPIDataReplicant = hasNoDefault<Schemas.Speedcontrol.TwitchAPIData.TwitchAPIData>('twitchAPIData', 'nodecg-speedcontrol');

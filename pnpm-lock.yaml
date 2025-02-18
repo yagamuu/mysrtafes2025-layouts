@@ -11,6 +11,9 @@ importers:
 
   .:
     dependencies:
+      axios:
+        specifier: ^1.7.9
+        version: 1.7.9
       nodecg:
         specifier: ^2.5.3
         version: 2.5.3(@types/express@5.0.0)(typescript@5.7.3)

@@ -23,7 +23,7 @@ export const runDataArray = useReplicant<Schemas.Speedcontrol.RunData.RunDataArr
   'runDataArray',
   'nodecg-speedcontrol',
 );
-export const runDataActiveRunSurrounding = useReplicant<Schemas.Speedcontrol.RunDataActiveRunSurrounding>(
+export const runDataActiveRunSurrounding = useReplicant<Schemas.Speedcontrol.RunDataActiveRunSurrounding.RunDataActiveRunSurrounding>(
   'runDataActiveRunSurrounding',
   'nodecg-speedcontrol',
 );

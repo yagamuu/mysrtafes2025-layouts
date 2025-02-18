@@ -100,6 +100,11 @@
         "height": 1080
       },
       {
+        "file": "4x3-1-challenge/main.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
         "file": "4x3-2/main.html",
         "width": 1920,
         "height": 1080
@@ -120,7 +125,17 @@
         "height": 1080
       },
       {
+        "file": "16x9-1-challenge/main.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
         "file": "16x9-2/main.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "16x9-2-challenge/main.html",
         "width": 1920,
         "height": 1080
       },

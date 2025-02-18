@@ -1,0 +1,57 @@
+#container {
+  background: url('../images/2p_16x9_challenge.jpg') no-repeat;
+}
+
+.information_box_header {
+  top: 38px;
+  left: 301px;
+  width: 1578px;
+  height: 165px;
+}
+
+.information_box {
+  top: 864px;
+  left: 1534px;
+}
+
+.movie {
+  top: 225px;
+  z-index: 10;
+  width: 936px;
+}
+
+.movie.-player1 {
+  left: 18px;
+}
+
+.movie.-player2 {
+  left: 965px;
+}
+
+.movie_screen {
+  width: 100%;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  left: 71px;
+  width: 957px;
+  font-size: 52px;
+}
+
+.game_detail {
+  top: 0;
+  left: 1102px;
+  font-size: 28px;
+}
+
+.time .now,
+.time.-is_stop .now {
+  color: var(--color-timer-challenge);
+  -webkit-text-stroke-color: #fff;
+}
+
+.time .will {
+  display: none;
+}

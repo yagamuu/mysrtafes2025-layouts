@@ -167,6 +167,44 @@
       "assets/2p_16x9-F9hTB25v.png"
     ]
   },
+  "src/graphics/16x9-3-pu/main.ts": {
+    "file": "assets/main-DfZRjGwX.js",
+    "name": "main",
+    "src": "src/graphics/16x9-3-pu/main.ts",
+    "isEntry": true,
+    "imports": [
+      "_replicants-BvAoZZEV.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-CX0mQVEr.js",
+      "_BaseOverlay.vue_vue_type_script_setup_true_lang-DYZsTYbc.js",
+      "_RunnerNameplate.vue_vue_type_script_setup_true_lang-CcDPthr9.js",
+      "_customData-B2StvFFE.js"
+    ],
+    "css": [
+      "assets/main-9ewOr1X7.css"
+    ],
+    "assets": [
+      "assets/3p_16x9_pickup-DD-_c1c-.png"
+    ]
+  },
+  "src/graphics/16x9-3/main.ts": {
+    "file": "assets/main-ydfRahL4.js",
+    "name": "main",
+    "src": "src/graphics/16x9-3/main.ts",
+    "isEntry": true,
+    "imports": [
+      "_replicants-BvAoZZEV.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-CX0mQVEr.js",
+      "_BaseOverlay.vue_vue_type_script_setup_true_lang-DYZsTYbc.js",
+      "_RunnerNameplate.vue_vue_type_script_setup_true_lang-CcDPthr9.js",
+      "_customData-B2StvFFE.js"
+    ],
+    "css": [
+      "assets/main--M7wIPj0.css"
+    ],
+    "assets": [
+      "assets/3p_16x9-CdH5gRm1.png"
+    ]
+  },
   "src/graphics/4x3-1/main.ts": {
     "file": "assets/main-CFH-AoSI.js",
     "name": "main",
@@ -204,6 +242,44 @@
       "assets/2p_4x3-BnWTyKYZ.png"
     ]
   },
+  "src/graphics/4x3-3-pu/main.ts": {
+    "file": "assets/main-DTl4aRdG.js",
+    "name": "main",
+    "src": "src/graphics/4x3-3-pu/main.ts",
+    "isEntry": true,
+    "imports": [
+      "_replicants-BvAoZZEV.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-CX0mQVEr.js",
+      "_BaseOverlay.vue_vue_type_script_setup_true_lang-DYZsTYbc.js",
+      "_RunnerNameplate.vue_vue_type_script_setup_true_lang-CcDPthr9.js",
+      "_customData-B2StvFFE.js"
+    ],
+    "css": [
+      "assets/main-DJGG9Kxa.css"
+    ],
+    "assets": [
+      "assets/3p_4x3_pickup-yJRw3OtT.png"
+    ]
+  },
+  "src/graphics/4x3-3/main.ts": {
+    "file": "assets/main-DXoF368B.js",
+    "name": "main",
+    "src": "src/graphics/4x3-3/main.ts",
+    "isEntry": true,
+    "imports": [
+      "_replicants-BvAoZZEV.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-CX0mQVEr.js",
+      "_BaseOverlay.vue_vue_type_script_setup_true_lang-DYZsTYbc.js",
+      "_RunnerNameplate.vue_vue_type_script_setup_true_lang-CcDPthr9.js",
+      "_customData-B2StvFFE.js"
+    ],
+    "css": [
+      "assets/main-BY50RQKl.css"
+    ],
+    "assets": [
+      "assets/3p_4x3_-jB54u_5m.png"
+    ]
+  },
   "src/graphics/_misc/images/1p_16x3.png": {
     "file": "assets/1p_16x3-BZoIKBbV.png",
     "src": "src/graphics/_misc/images/1p_16x3.png"
@@ -219,6 +295,22 @@
   "src/graphics/_misc/images/2p_4x3.png": {
     "file": "assets/2p_4x3-BnWTyKYZ.png",
     "src": "src/graphics/_misc/images/2p_4x3.png"
+  },
+  "src/graphics/_misc/images/3p_16x9.png": {
+    "file": "assets/3p_16x9-CdH5gRm1.png",
+    "src": "src/graphics/_misc/images/3p_16x9.png"
+  },
+  "src/graphics/_misc/images/3p_16x9_pickup.png": {
+    "file": "assets/3p_16x9_pickup-DD-_c1c-.png",
+    "src": "src/graphics/_misc/images/3p_16x9_pickup.png"
+  },
+  "src/graphics/_misc/images/3p_4x3_.png": {
+    "file": "assets/3p_4x3_-jB54u_5m.png",
+    "src": "src/graphics/_misc/images/3p_4x3_.png"
+  },
+  "src/graphics/_misc/images/3p_4x3_pickup.png": {
+    "file": "assets/3p_4x3_pickup-yJRw3OtT.png",
+    "src": "src/graphics/_misc/images/3p_4x3_pickup.png"
   },
   "src/graphics/_misc/images/setup.png": {
     "file": "assets/setup-Ja4gJL1K.png",

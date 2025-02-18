@@ -16,6 +16,8 @@ export const setupInformationArray = useReplicant<Schemas.SetupInformation.Setup
 export const startSoon = useReplicant<Schemas.StartSoon>('startSoon', thisBundle);
 export const layoutBg = useAssetReplicant('layoutBg', thisBundle);
 
+export const spotifyPlayingTrack = useReplicant<Schemas.Spotify.SpotifyPlayingTrack.SpotifyPlayingTrack>('spotifyPlayingTrack', 'nodecg-spotify-widget');
+
 // ---
 // Speedcontrol replicants
 export const runDataActiveRun = useReplicant<Schemas.Speedcontrol.RunData.RunDataActiveRun>('runDataActiveRun', 'nodecg-speedcontrol');

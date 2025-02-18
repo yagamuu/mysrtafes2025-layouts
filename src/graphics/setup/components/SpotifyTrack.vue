@@ -1,12 +1,12 @@
 <script setup lang="ts">
-// import { useSpotifyPlayingTrack } from '@mysrtafes2024-layouts/composable';
+import { useSpotifyPlayingTrack } from '../../../composable';
 
-// const { trackName, artists } = useSpotifyPlayingTrack();
+const { trackName, artists, albumName } = useSpotifyPlayingTrack();
 </script>
 
 <template>
   <div class="music">
-    <p class="music_track">Nazuna Shop (feat. ハナクマチフユ) - INuya Feat. ハナクマチフユ</p>
-    <p class="music_album">Stream Palette 5 - CHATTING</p>
+    <p class="music_track">{{ trackName }} - {{ artists }}</p>
+    <p class="music_album">{{ albumName }}</p>
   </div>
 </template>

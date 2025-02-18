@@ -130,8 +130,26 @@
       "_option-sizes-DLlDefle.js"
     ]
   },
+  "src/graphics/16x9-1-challenge/main.ts": {
+    "file": "assets/main-eD8_IXIT.js",
+    "name": "main",
+    "src": "src/graphics/16x9-1-challenge/main.ts",
+    "isEntry": true,
+    "imports": [
+      "_replicants-gkco-zhU.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-C3p9FIlo.js",
+      "_BaseOverlay.vue_vue_type_script_setup_true_lang-rDMdDYZn.js",
+      "_customData-cVzr9vCY.js"
+    ],
+    "css": [
+      "assets/main-BD2M_ZTW.css"
+    ],
+    "assets": [
+      "assets/1p_16x3_challenge-DptlAi1G.jpg"
+    ]
+  },
   "src/graphics/16x9-1/main.ts": {
-    "file": "assets/main-fBFG4yBW.js",
+    "file": "assets/main-BuzExRnL.js",
     "name": "main",
     "src": "src/graphics/16x9-1/main.ts",
     "isEntry": true,
@@ -142,14 +160,33 @@
       "_customData-cVzr9vCY.js"
     ],
     "css": [
-      "assets/main-D3G-7T0F.css"
+      "assets/main-BkYFkdJV.css"
     ],
     "assets": [
       "assets/1p_16x3-BZoIKBbV.png"
     ]
   },
+  "src/graphics/16x9-2-challenge/main.ts": {
+    "file": "assets/main-FPbSM4d-.js",
+    "name": "main",
+    "src": "src/graphics/16x9-2-challenge/main.ts",
+    "isEntry": true,
+    "imports": [
+      "_replicants-gkco-zhU.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-C3p9FIlo.js",
+      "_BaseOverlay.vue_vue_type_script_setup_true_lang-rDMdDYZn.js",
+      "_RunnerNameplate.vue_vue_type_script_setup_true_lang-g74kd7YW.js",
+      "_customData-cVzr9vCY.js"
+    ],
+    "css": [
+      "assets/main-DpkoFHAS.css"
+    ],
+    "assets": [
+      "assets/2p_16x9_challenge-B30dgSEn.jpg"
+    ]
+  },
   "src/graphics/16x9-2/main.ts": {
-    "file": "assets/main-B535cDqj.js",
+    "file": "assets/main-CCTx9-J_.js",
     "name": "main",
     "src": "src/graphics/16x9-2/main.ts",
     "isEntry": true,
@@ -161,14 +198,14 @@
       "_customData-cVzr9vCY.js"
     ],
     "css": [
-      "assets/main-BFPnlsqF.css"
+      "assets/main-DfBdGrLS.css"
     ],
     "assets": [
       "assets/2p_16x9-F9hTB25v.png"
     ]
   },
   "src/graphics/16x9-3-pu/main.ts": {
-    "file": "assets/main-CjalByYf.js",
+    "file": "assets/main-DFogRduH.js",
     "name": "main",
     "src": "src/graphics/16x9-3-pu/main.ts",
     "isEntry": true,
@@ -180,14 +217,14 @@
       "_customData-cVzr9vCY.js"
     ],
     "css": [
-      "assets/main-9ewOr1X7.css"
+      "assets/main-D2YRbom5.css"
     ],
     "assets": [
       "assets/3p_16x9_pickup-DD-_c1c-.png"
     ]
   },
   "src/graphics/16x9-3/main.ts": {
-    "file": "assets/main-DUMRPCuR.js",
+    "file": "assets/main-C98So6ub.js",
     "name": "main",
     "src": "src/graphics/16x9-3/main.ts",
     "isEntry": true,
@@ -199,14 +236,32 @@
       "_customData-cVzr9vCY.js"
     ],
     "css": [
-      "assets/main--M7wIPj0.css"
+      "assets/main-C1l-bH_z.css"
     ],
     "assets": [
       "assets/3p_16x9-CdH5gRm1.png"
     ]
   },
+  "src/graphics/4x3-1-challenge/main.ts": {
+    "file": "assets/main-zW6qadE9.js",
+    "name": "main",
+    "src": "src/graphics/4x3-1-challenge/main.ts",
+    "isEntry": true,
+    "imports": [
+      "_replicants-gkco-zhU.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-C3p9FIlo.js",
+      "_BaseOverlay.vue_vue_type_script_setup_true_lang-rDMdDYZn.js",
+      "_customData-cVzr9vCY.js"
+    ],
+    "css": [
+      "assets/main-ClGTVYSH.css"
+    ],
+    "assets": [
+      "assets/1p_4x3_challenge-fyabLP68.jpg"
+    ]
+  },
   "src/graphics/4x3-1/main.ts": {
-    "file": "assets/main-CXz3LZFg.js",
+    "file": "assets/main-CgSOyXau.js",
     "name": "main",
     "src": "src/graphics/4x3-1/main.ts",
     "isEntry": true,
@@ -217,14 +272,14 @@
       "_customData-cVzr9vCY.js"
     ],
     "css": [
-      "assets/main-DiUDhQ_M.css"
+      "assets/main-Ci7uT-iW.css"
     ],
     "assets": [
       "assets/1p_4x3-CzdMATfZ.png"
     ]
   },
   "src/graphics/4x3-2/main.ts": {
-    "file": "assets/main-B4hJPjNu.js",
+    "file": "assets/main-Bgrzrcas.js",
     "name": "main",
     "src": "src/graphics/4x3-2/main.ts",
     "isEntry": true,
@@ -236,14 +291,14 @@
       "_customData-cVzr9vCY.js"
     ],
     "css": [
-      "assets/main-CTmp2d9K.css"
+      "assets/main-C0_D7GmA.css"
     ],
     "assets": [
       "assets/2p_4x3-BnWTyKYZ.png"
     ]
   },
   "src/graphics/4x3-3-pu/main.ts": {
-    "file": "assets/main-Cxt9kSqJ.js",
+    "file": "assets/main-ySkvYU32.js",
     "name": "main",
     "src": "src/graphics/4x3-3-pu/main.ts",
     "isEntry": true,
@@ -255,14 +310,14 @@
       "_customData-cVzr9vCY.js"
     ],
     "css": [
-      "assets/main-DJGG9Kxa.css"
+      "assets/main-glIEfxlZ.css"
     ],
     "assets": [
       "assets/3p_4x3_pickup-yJRw3OtT.png"
     ]
   },
   "src/graphics/4x3-3/main.ts": {
-    "file": "assets/main-BS2-oAeu.js",
+    "file": "assets/main-CUim8Lvd.js",
     "name": "main",
     "src": "src/graphics/4x3-3/main.ts",
     "isEntry": true,
@@ -274,7 +329,7 @@
       "_customData-cVzr9vCY.js"
     ],
     "css": [
-      "assets/main-BY50RQKl.css"
+      "assets/main-te_r8yTN.css"
     ],
     "assets": [
       "assets/3p_4x3_-jB54u_5m.png"
@@ -284,13 +339,25 @@
     "file": "assets/1p_16x3-BZoIKBbV.png",
     "src": "src/graphics/_misc/images/1p_16x3.png"
   },
+  "src/graphics/_misc/images/1p_16x3_challenge.jpg": {
+    "file": "assets/1p_16x3_challenge-DptlAi1G.jpg",
+    "src": "src/graphics/_misc/images/1p_16x3_challenge.jpg"
+  },
   "src/graphics/_misc/images/1p_4x3.png": {
     "file": "assets/1p_4x3-CzdMATfZ.png",
     "src": "src/graphics/_misc/images/1p_4x3.png"
   },
+  "src/graphics/_misc/images/1p_4x3_challenge.jpg": {
+    "file": "assets/1p_4x3_challenge-fyabLP68.jpg",
+    "src": "src/graphics/_misc/images/1p_4x3_challenge.jpg"
+  },
   "src/graphics/_misc/images/2p_16x9.png": {
     "file": "assets/2p_16x9-F9hTB25v.png",
     "src": "src/graphics/_misc/images/2p_16x9.png"
+  },
+  "src/graphics/_misc/images/2p_16x9_challenge.jpg": {
+    "file": "assets/2p_16x9_challenge-B30dgSEn.jpg",
+    "src": "src/graphics/_misc/images/2p_16x9_challenge.jpg"
   },
   "src/graphics/_misc/images/2p_4x3.png": {
     "file": "assets/2p_4x3-BnWTyKYZ.png",
@@ -330,7 +397,7 @@
     ]
   },
   "src/graphics/setup/main.ts": {
-    "file": "assets/main-Dwp5vhuj.js",
+    "file": "assets/main-OQbdXD1v.js",
     "name": "main",
     "src": "src/graphics/setup/main.ts",
     "isEntry": true,
@@ -340,7 +407,7 @@
       "_customData-cVzr9vCY.js"
     ],
     "css": [
-      "assets/main-DXTuuZ6Q.css"
+      "assets/main-DWWyh7k1.css"
     ],
     "assets": [
       "assets/setup_back-BkqvnxaU.jpg",

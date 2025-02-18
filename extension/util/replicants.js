@@ -22,4 +22,4 @@ export const exampleReplicant = hasDefault('exampleReplicant');
 export const displaySoundReplicant = hasDefault('displaySound');
 export const setupInformationArrayReplicant = hasDefault('setupInformationArray');
 export const startSoonReplicant = hasDefault('startSoon');
-export const runDataActiveRunReplicant = hasDefault('runDataActiveRun', 'nodecg-speedcontrol');
+export const runDataActiveRunReplicant = hasNoDefault('runDataActiveRun', 'nodecg-speedcontrol');

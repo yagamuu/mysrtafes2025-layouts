@@ -1,3 +1,3 @@
 export * as RunData from './RunData.d.ts';
-export * from './RunDataActiveRunSurrounding';
+export * as RunDataActiveRunSurrounding from './RunDataActiveRunSurrounding.d.ts';
 export * as Timer from './Timer';

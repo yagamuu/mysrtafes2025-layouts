@@ -28,4 +28,4 @@ export const displaySoundReplicant = hasDefault<Schemas.DisplaySound>('displaySo
 export const setupInformationArrayReplicant = hasDefault<Schemas.SetupInformation.SetupInformationArray>('setupInformationArray');
 export const startSoonReplicant = hasDefault<Schemas.StartSoon>('startSoon');
 
-export const runDataActiveRunReplicant = hasDefault<Schemas.Speedcontrol.RunData.RunDataActiveRun>('runDataActiveRun', 'nodecg-speedcontrol');
+export const runDataActiveRunReplicant = hasNoDefault<Schemas.Speedcontrol.RunData.RunDataActiveRun>('runDataActiveRun', 'nodecg-speedcontrol');

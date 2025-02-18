@@ -1,7 +1,11 @@
 import type { Schemas } from '../types/index.js';
 import { nodecg } from './util/nodecg.js';
-import { setupInformationArrayReplicant } from './util/replicants.js';
+import { setupInformationArrayReplicant, runDataActiveRunReplicant } from './util/replicants.js';
 import { v4 as uuid } from 'uuid';
+
+function parseLine(line: string): string[] {
+  return line.match(/"(.*?)"/g)?.map(item => item.replace(/"/g, '')) || [];
+}
 
 const createInformation = (text: string): void => {
   if (!setupInformationArrayReplicant.value) { return; }
@@ -38,6 +42,24 @@ const deleteInformation = (id: string): void => {
   nodecg.log.info('Delete information');
 };
 
+const automaticRestoreInformation = (runData: Schemas.Speedcontrol.RunData.RunData): void => {
+  if (!setupInformationArrayReplicant.value) { return; }
+
+  const setupInformationRaw = runData.customData.setupInformation;
+
+  if (!setupInformationRaw) { return; }
+
+  const informations = parseLine(setupInformationRaw).filter((information) => information !== '');
+
+  if (informations.length === 0) { return; }
+
+  setupInformationArrayReplicant.value = [];
+
+  informations.map((information) => createInformation(information));
+
+  nodecg.log.info('Done Automatic Restore information');
+};
+
 nodecg.listenFor('createInformation', (data, ack) => {
   createInformation(data.text);
 
@@ -59,5 +81,11 @@ nodecg.listenFor('deleteInformation', (data, ack) => {
 
   if (ack && !ack.handled) {
     ack(null);
+  }
+});
+
+runDataActiveRunReplicant.on('change', (newVal: Schemas.Speedcontrol.RunData.RunDataActiveRun, oldVal: Schemas.Speedcontrol.RunData.RunDataActiveRun) => {
+  if (newVal && oldVal?.id !== newVal.id) {
+    automaticRestoreInformation(newVal);
   }
 });

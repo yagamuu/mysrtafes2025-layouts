@@ -17,12 +17,16 @@ const runners = computed(() => {
   return props.runData.teams.flatMap((team) => team.players.flatMap((player) => player.name)).join(', ');
 });
 
-const displaySetupInformation = ref(0);
+const displaySetupInformationIndex = ref(0);
 
 setInterval(() => {
-  const length = setupInformationArray?.data?.length || 0;
-  displaySetupInformation.value = (displaySetupInformation.value + 1) % length;
+  displaySetupInformationIndex.value++;
 }, 20000);
+
+const displaySetupInformation = computed(() => {
+  const length = setupInformationArray?.data?.length || 0;
+  return (displaySetupInformationIndex.value + 1) % length
+});
 
 </script>
 

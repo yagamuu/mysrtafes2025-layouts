@@ -1,0 +1,42 @@
+#container {
+  background: url('../images/1p_16x3_challenge.jpg') no-repeat;
+}
+
+.information_box {
+  top: 856px;
+  left: 16px;
+  width: 1888px;
+  height: 170px;
+}
+
+.movie {
+  top: 11px;
+  left: 415px;
+  width: 1485px;
+}
+
+.time {
+  position: absolute;
+  top: 26px;
+  left: -1px;
+}
+
+.title {
+  top: 0;
+  left: 447px;
+}
+
+.game_detail {
+  top: 0;
+  left: 1430px;
+}
+
+.time .now,
+.time.-is_stop .now {
+  color: var(--color-timer-challenge);
+  -webkit-text-stroke-color: #fff;
+}
+
+.time .will {
+  display: none;
+}

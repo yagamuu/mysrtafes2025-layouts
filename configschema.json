@@ -3,11 +3,17 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "exampleProperty": {
-      "type": "string"
+    "enableAutoMarker": {
+      "type": "boolean",
+      "default": true
+    },
+    "autoMarkerDescription": {
+      "type": "string",
+      "default": "NodeCG連動マーカー"
+    },
+    "twitchClientId": {
+      "type": "string",
+      "default": ""
     }
-  },
-  "required": [
-    "exampleProperty"
-  ]
+  }
 }

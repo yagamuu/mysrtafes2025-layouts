@@ -9,4 +9,5 @@ export default async (nodecg) => {
     await import('./displaySound.js');
     await import('./information.js');
     await import('./startSoon.js');
+    await import('./twitch.js');
 };

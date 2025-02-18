@@ -22,3 +22,5 @@ export const displaySoundReplicant = hasDefault('displaySound');
 export const setupInformationArrayReplicant = hasDefault('setupInformationArray');
 export const startSoonReplicant = hasDefault('startSoon');
 export const runDataActiveRunReplicant = hasNoDefault('runDataActiveRun', 'nodecg-speedcontrol');
+export const runDataActiveRunSurroundingReplicant = hasNoDefault('runDataActiveRunSurrounding', 'nodecg-speedcontrol');
+export const twitchAPIDataReplicant = hasNoDefault('twitchAPIData', 'nodecg-speedcontrol');

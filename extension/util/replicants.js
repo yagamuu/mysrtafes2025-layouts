@@ -7,7 +7,6 @@ function hasDefault(name, namespace) {
     return nodecg.Replicant(name);
 }
 // Wrapper for replicants that don't have a default (based on schema).
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function hasNoDefault(name, namespace) {
     if (namespace) {
         return nodecg.Replicant(name, namespace);

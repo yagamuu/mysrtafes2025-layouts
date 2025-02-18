@@ -105,12 +105,32 @@
         "height": 1080
       },
       {
+        "file": "4x3-3/main.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "4x3-3-pu/main.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
         "file": "16x9-1/main.html",
         "width": 1920,
         "height": 1080
       },
       {
         "file": "16x9-2/main.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "16x9-3/main.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "16x9-3-pu/main.html",
         "width": 1920,
         "height": 1080
       }
